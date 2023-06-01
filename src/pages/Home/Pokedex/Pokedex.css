@@ -1,0 +1,43 @@
+.pokedex-message {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 29px;
+  margin: 1rem 0 0 0;
+  color: white;
+  background: rgba(0, 0, 0, 0.568);
+}
+.pokedex-message-user {
+  margin: 10px 0 0 0;
+  font-style:italic;
+  font-weight: 900;
+  font-size: 3rem;
+  color: #eec300;
+  text-shadow: .3rem .5rem 1rem rgba(242, 255, 154, 0.5)
+
+}
+.section-bg6 {
+  background-image: url(../../../images/compresspng/img6.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: left;
+  max-height: 80vh;
+}
+.section-bg7 {
+  background-image: url(../../../images/compresspng/img7.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  max-height: 60vh;
+}
+.section-bg8 {
+  background-image: url(../../../images/compresspng/img8.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  max-height: 50vh;
+}
+
+section p {
+  display: flex;
+  flex-direction: column;
+}

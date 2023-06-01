@@ -1,0 +1,37 @@
+.section {
+  height: 90vh;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+section ul li {
+  list-style: none;
+}
+
+.bg-div {
+  background: rgba(0, 0, 0, 0.31);
+  padding: 0;
+  margin: 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  
+  
+}
+.pokemon-bg {
+  padding: 0;
+  background-image: url("../../../../images/compresspng/img1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+  
+}
+
+

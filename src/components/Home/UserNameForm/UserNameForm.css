@@ -1,0 +1,51 @@
+.form-home {
+    /* width: 100px;
+    height: 65px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name-error{
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+}
+.input {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #eec300 ;
+    background: radial-gradient(circle, rgba(251, 245, 63, 0.133) 12%, rgba(0,0,0,0.6522842639593909) 100%);
+    box-shadow: 0rem .5rem 1rem rgba(0, 0, 0, 0.3);
+    border-radius: 20%;
+    margin-bottom: 1rem;
+    border: none;
+}
+.input:hover{
+    color: white;
+}
+input::placeholder{
+    color: rgba(226, 226, 226, 0.759);
+}
+.label {
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+    background: rgb(251,246,63);
+    background: radial-gradient(circle, rgba(251,246,63,0.35555567) 12%, rgba(0,0,0,0.6522842639593909) 100%);
+    border-radius: 40%;
+    transition: .2s linear;
+    border: thin;
+}
+.label:hover{
+    color: #eec300;
+    transform: scale(1.1);
+    background: rgb(251,246,63);
+    background: radial-gradient(circle, rgba(251, 245, 63, 0.214) 12%, rgba(0, 0, 0, 0.963) 100%);
+}

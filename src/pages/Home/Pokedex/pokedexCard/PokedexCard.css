@@ -1,0 +1,112 @@
+
+.pokemon-card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    transition: .2s linear;
+    border: none;
+    height: 80vh;
+
+}
+.main:hover {
+    transform: scale(1.2);
+    background-image: url(../../../../images/cards/card2.png);
+    color: #ffffff;
+    text-shadow: 0 0 1rem rgba(255, 255, 255, 1);
+    box-shadow: 0 50px 400px black;
+    
+}
+.main{
+  border: none;
+  background-image: url(../../../../images/cards/card1.png);
+  background-repeat: no-repeat;
+  background-size: cover ;
+  background-position-x: center;
+  max-width: 300px;
+  
+}
+.pokemon-card__img img{
+    position:sticky;
+    max-width: 200px;
+    max-height: 165px;
+    /* margin: 0 0 3rem 0; */
+    /* background: rgba(255, 255, 255, 0); */
+    /* z-index: 0; */
+
+   
+}
+.div-title{
+    background: rgba(0, 0, 0, 0.34);
+    max-width: 100%;
+    margin: 1.8rem 2rem 1rem 2rem;
+    padding: 0 5px;
+    border-radius: 20px;
+
+}
+.pokemon-card__title {
+    color: white;
+    font-size: 1rem;
+    text-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.5);
+    margin: 0 ;
+}
+
+
+.pokemon-card__list {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+
+}
+.pokemon-card__type {
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+}
+.types h3,.stats h3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 0 .3rem .5rem black;
+}
+.div-stats {
+    background-color: rgba(0, 0, 0, 0.538);
+    border-radius: 10px;
+    margin: 0 5px;
+    width: 100%;
+
+
+}
+.div-stats__type {
+    background-color: rgba(0, 0, 0, 0.538);
+    border-radius: 10px;
+    margin: 3px 5px 0 5px;
+    width: 100%;
+
+
+}
+.pokemon-card__item em{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+}
+.pokemon-card__item span{
+    font-weight: 500;
+    text-align: center;
+    color: rgb(255, 234, 0);
+}
+.pokemon-card__list-stats {
+    margin: 5px 1rem;
+    padding: 0;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}

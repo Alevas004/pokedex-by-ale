@@ -1,0 +1,37 @@
+.logo-container img {
+  max-width: 100%;
+}
+
+.home-title {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 61px;
+  color: #eec300;
+  text-align: center;
+  
+}
+.home-description {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+}
+.user-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.all-section {
+  background-image: url(./../../images/compresspng/img2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+  /* height: 100vh; */
+}
+.grey {
+  background: #0000009f;
+  height: 100vh;
+  
+}

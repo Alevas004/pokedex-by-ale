@@ -1,0 +1,18 @@
+
+.header-second{
+    height: 100vh;
+    text-align: center;
+}
+.header_deeper_header button{
+    background: #000000;
+    color: #eec300;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+}
+.bg-header{
+    background: beige;
+    height: 70vh;
+}
