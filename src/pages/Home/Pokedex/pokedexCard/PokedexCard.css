@@ -1,13 +1,12 @@
 
 .pokemon-card {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    transition: .2s linear;
+    border-radius: 10px;
     border: none;
-    height: 80vh;
 
 }
 .main:hover {
@@ -22,13 +21,15 @@
   border: none;
   background-image: url(../../../../images/cards/card1.png);
   background-repeat: no-repeat;
-  background-size: cover ;
+  background-size: contain ;
   background-position-x: center;
   max-width: 300px;
+  transition: .2s linear;
+  border-radius: 10px;
+  height: 59vh;
   
 }
 .pokemon-card__img img{
-    position:sticky;
     max-width: 200px;
     max-height: 165px;
     /* margin: 0 0 3rem 0; */
